@@ -10,12 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "antd": "^4.19.5",
-    "node-sass": "^7.0.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "node-sass": "^7.0.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucy-pill/to-do-list-vanillajs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucy-pill/to-do-list-vanillajs/issues"
+  },
+  "homepage": "https://github.com/lucy-pill/to-do-list-vanillajs#readme"
 }
