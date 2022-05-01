@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
     <link rel="stylesheet" href="./scss/styles.scss" />
     <title>Document</title>
-    <script defer src="./js/app.js"></script>
-    <script defer src="./js/modal.js"></script>
+    <script defer src="./js/app.js"></script>]
   </head>
   <body>
     <div class="to_do">
@@ -21,12 +20,25 @@
         <form class="to_do_form">
           <input type="text" placeholder="할 일을 입력해주세요." required />
         </form>
+        <div class="explain">
+          <span class="material-symbols-outlined">done</span>
+          <span>= 할 일 완료, </span> 
+          <span. class="material-symbols-outlined">close</span.>
+          <span> = 할 일 삭제</span>
+        </div>
       </div>
       <div class="to_do_list">
         <ul class="to_do_list_ul"></ul>
       </div>
     </div>
-    <button>U</button>
-    <div class="modal"></div>
+    <div class="btn_modal">📋</div>
+    <div class="modal">
+      <div class="modal_list">
+        <ul class="modal_list_ul"></ul>
+      </div>
+      <div class="modal_clear">
+        <span>Clear</span>
+      </div>
+    </div>
     </body>
 </html>
