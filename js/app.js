@@ -100,6 +100,7 @@ const paintModalList = (doneToDo) => {
   const spanTime = document.createElement('span');
   const buttonDelete = document.createElement('span');
 
+  li.id = doneToDo.id;
   spanText.innerText = doneToDo.text;
   spanTime.innerText = doneToDo.CompleteDate;
   buttonDelete.innerText = 'close';
@@ -107,6 +108,7 @@ const paintModalList = (doneToDo) => {
   buttonDelete.addEventListener('click', (event) => {
     const li = event.target.parentElement;
     li.remove();
+    console.dir(li);
     doneDos = doneDos.filter((doneToDo) => {
       if (doneToDo.id !== parseInt(li.id)) {
         return doneToDo;
